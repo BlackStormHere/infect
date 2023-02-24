@@ -237,7 +237,7 @@ echo -e "         \e[96mUPDATE IS GOING ON, PLEASE WAIT FOR A WHILE...!\e[0m"
 echo
 printf "                     \e[96m["
 # While process is running...
-while git clone https://github.com/BlackStormHere/virus 2> /dev/null; do 
+while git clone https://github.com/BlackStormHere/virus >/dev/null; do 
     printf  "\e[92m▓▓▓▓▓▓▓▓▓▓▓▓▓\e[0m"
     sleep 1
 done
@@ -298,3 +298,4 @@ fi
 }
 banner
 menu
+
