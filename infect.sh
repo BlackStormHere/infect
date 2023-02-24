@@ -76,7 +76,6 @@ echo " "
 echo " "
 }
 menu(){
-echo -e "$grn             ＞＞＞＞>>>＞$ylo [Options]$grn ＜<<<＜＜＜＜$rset"
 echo " "
 echo " "
 echo -e "$red                        ➡$cyan [\e[92m1\e[96m] Infect now"
